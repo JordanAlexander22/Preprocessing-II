@@ -170,13 +170,24 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .navContain .navBar {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+  }
+  .navContain h1 {
+    text-align: center;
+  }
+}
 .navContain {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  padding: 2rem;
+  align-items: center;
   border-bottom: 0.2rem dotted gray;
   border-width: 100%;
+  padding: 2rem;
 }
 .navContain a {
   text-decoration: none;
