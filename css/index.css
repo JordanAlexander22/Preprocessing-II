@@ -241,3 +241,16 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+.topContent {
+  border-bottom: 0.2rem dotted gray;
+}
+button {
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: #17A2B8;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #148ea1;
+}
