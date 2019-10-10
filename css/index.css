@@ -131,6 +131,8 @@ table {
 }
 html {
   font-size: 62.5%;
+  width: 80%;
+  margin: auto;
 }
 html,
 body {
@@ -167,6 +169,20 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.navContain {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 2rem;
+  border-bottom: 0.2rem dotted gray;
+  border-width: 100%;
+}
+.navContain a {
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1.5rem;
+  color: black;
 }
 .footer {
   width: 100%;
